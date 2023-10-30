@@ -42,7 +42,7 @@ play = os.path.join(resource_path, "play.png")
 stop = os.path.join(resource_path, "stop.png")
 
 class YouTubeAPI:
-    API_KEY = "AIzaSyC4UMckQ0-xpTD1IPA0p02gWCCRxQ8to2A"
+    API_KEY = "KEY HERE"
 
     @staticmethod
     def get_trending_videos():
@@ -256,7 +256,7 @@ class AudioPlayer:
         from googleapiclient.discovery import build
         from googleapiclient.errors import HttpError
 
-        api_key = "AIzaSyC4UMckQ0-xpTD1IPA0p02gWCCRxQ8to2A"
+        api_key = "KEY HERE"
 
         youtube = build("youtube", "v3", developerKey=api_key, static_discovery=False)
 
